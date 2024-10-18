@@ -8,7 +8,7 @@ public class M01 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        double peforma, nilaiangka, a, aB, b, bC, c, d, e;
+        double performa, nilaiangka, a, aB, b, bC, c, d, e;
         int kredit1;
         String nilaihuruf, kredit;
 
@@ -50,7 +50,7 @@ public class M01 {
                     }
                 }
             }
-            peforma = Integer.parseInt(kredit) * nilaiangka;
+            performa = Integer.parseInt(kredit) * nilaiangka;
             System.out.println(toFixed(peforma,1));
             kredit = input.nextLine();
         }
