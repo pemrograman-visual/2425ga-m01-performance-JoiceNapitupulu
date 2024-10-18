@@ -4,11 +4,11 @@
         <attribute name="name" value="BENARRRRRRRRRRRR WHILE"/>
         <attribute name="authors" value="JOICE"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 11:13:45 AM"/>
+        <attribute name="saved" value="2024-10-18 11:16:39 AM"/>
         <attribute name="created" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDM6NDY6NDggUE07MjMwNA=="/>
         <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDM6NTQ6MjEgUE07OTtKT0lDRTtCRUVMWkVCVUI7MjAyNC0xMC0xNzswMTo1MDo1NCBQTTtDT0JBQS5mcHJnOzU2NDE="/>
         <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDQ6MTQ6MjIgUE07MTsyNDAw"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0xMC0xODsxMToxMzo0NSBBTTs4OzI4MjA="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0xMC0xODsxMToxNjozOSBBTTs5OzI4Mjc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -85,7 +85,7 @@
                         </if>
                     </else>
                 </if>
-                <assign variable="peforma" expression="toReal(kredit)*nilaiangka"/>
+                <assign variable="peforma" expression="toInteger(kredit)* nilaiangka"/>
                 <output expression="toFixed(peforma,1)" newline="True"/>
                 <input variable="kredit"/>
                 <if expression="kredit=&quot;---&quot;">

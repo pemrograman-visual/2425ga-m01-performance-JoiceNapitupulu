@@ -57,7 +57,7 @@ public class M01 {
                     }
                 }
             }
-            peforma = Integer.parseDouble(kredit) * nilaiangka;
+            peforma = Integer.parseInt(kredit) * nilaiangka;
             System.out.println(toFixed(peforma,1));
             kredit = input.nextLine();
             if (kredit.equals("---")) {
