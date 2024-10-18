@@ -1,6 +1,5 @@
 // 12S24014 - Arion Dippos Pandapotan Manurung
 // 12S24020 - Joice Anastasya Napitupulu
-
 import java.util.*;
 import java.lang.Math;
 
@@ -14,6 +13,13 @@ public class M01 {
 
         kredit1 = 0;
         kredit = input.nextLine();
+        a = 4.0;
+        aB = 3.5;
+        b = 3.0;
+        bC = 2.5;
+        c = 2.0;
+        d = 1.0;
+        e = 0.0;
         while (!kredit.equals("---")) {
             if (kredit.equals("---")) {
                 kredit = kredit;
