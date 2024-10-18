@@ -4,17 +4,17 @@
         <attribute name="name" value="BENARRRRRRRRRRRR WHILE"/>
         <attribute name="authors" value="JOICE"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 11:10:42 AM"/>
+        <attribute name="saved" value="2024-10-18 11:13:45 AM"/>
         <attribute name="created" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDM6NDY6NDggUE07MjMwNA=="/>
         <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDM6NTQ6MjEgUE07OTtKT0lDRTtCRUVMWkVCVUI7MjAyNC0xMC0xNzswMTo1MDo1NCBQTTtDT0JBQS5mcHJnOzU2NDE="/>
         <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDQ6MTQ6MjIgUE07MTsyNDAw"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0xMC0xODsxMToxMDo0MiBBTTs3OzI4MTM="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0xMC0xODsxMToxMzo0NSBBTTs4OzI4MjA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="peforma, nilaiangka, A, AB, B, BC, C, D, E" type="Real" array="False" size=""/>
-            <declare name="kredit1" type="Real" array="False" size=""/>
+            <declare name="kredit1" type="Integer" array="False" size=""/>
             <declare name="nilaihuruf, kredit" type="String" array="False" size=""/>
             <assign variable="kredit1" expression="0"/>
             <input variable="kredit"/>

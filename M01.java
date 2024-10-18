@@ -1,5 +1,6 @@
 // 12S24014 - Arion Dippos Pandapotan Manurung
 // 12S24020 - Joice Anastasya Napitupulu
+
 import java.util.*;
 import java.lang.Math;
 
@@ -8,7 +9,7 @@ public class M01 {
 
     public static void main(String[] args) {
         double peforma, nilaiangka, a, aB, b, bC, c, d, e;
-        double kredit1;
+        int kredit1;
         String nilaihuruf, kredit;
 
         kredit1 = 0;
