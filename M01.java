@@ -52,6 +52,12 @@ public class M01 {
             peforma = Integer.parseDouble(kredit) * nilaiangka;
             System.out.println(toFixed(peforma,1));
             kredit = input.nextLine();
+            if (kredit.equals("---")) {
+                kredit = kredit;
+            } else {
+                kredit1 = Integer.parseDouble(kredit);
+            }
+            nilaihuruf = input.nextLine();
         }
     }
     
