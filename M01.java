@@ -1,6 +1,5 @@
 // 12S24014 - Arion Dippos Pandapotan Manurung
 // 12S24020 - Joice Anastasya Napitupulu
-
 import java.util.*;
 import java.lang.Math;
 
@@ -8,9 +7,9 @@ public class M01 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        double peforma, nilaiangka, a, aB, b, bC, c, d, e;
+        double peforma, nilai, a, aB, b, bC, c, d, e;
         double kredit1;
-        String nilaihuruf, kredit;
+        String nilai1, kredit;
 
         kredit1 = 0;
         kredit = input.nextLine();
@@ -20,29 +19,29 @@ public class M01 {
             } else {
                 kredit1 = Integer.parseDouble(kredit);
             }
-            nilaihuruf = input.nextLine();
-            if (nilaihuruf.equals("A")) {
-                nilaiangka = 4.0;
+            nilai1 = input.nextLine();
+            if (nilai1.equals("A")) {
+                nilai = 4.0;
             } else {
-                if (nilaihuruf.equals("AB")) {
-                    nilaiangka = 3.5;
+                if (nilai1.equals("AB")) {
+                    nilai = 3.5;
                 } else {
-                    if (nilaihuruf.equals("B")) {
-                        nilaiangka = 3.0;
+                    if (nilai1.equals("B")) {
+                        nilai = 3.0;
                     } else {
-                        if (nilaihuruf.equals("BC")) {
-                            nilaiangka = 2.5;
+                        if (nilai1.equals("BC")) {
+                            nilai = 2.5;
                         } else {
-                            if (nilaihuruf.equals("C")) {
-                                nilaiangka = 2.0;
+                            if (nilai1.equals("C")) {
+                                nilai = 2.0;
                             } else {
-                                if (nilaihuruf.equals("D")) {
-                                    nilaiangka = 1.0;
+                                if (nilai1.equals("D")) {
+                                    nilai = 1.0;
                                 } else {
-                                    if (nilaihuruf.equals("E")) {
-                                        nilaiangka = 0.0;
+                                    if (nilai1.equals("E")) {
+                                        nilai = 0.0;
                                     } else {
-                                        nilaiangka = 0.0;
+                                        nilai = 0.0;
                                     }
                                 }
                             }
@@ -50,7 +49,7 @@ public class M01 {
                     }
                 }
             }
-            peforma = kredit * nilaiangka;
+            peforma = Integer.parseDouble(kredit) * nilai;
             System.out.println(toFixed(peforma,1));
             kredit = input.nextLine();
         }
@@ -60,4 +59,3 @@ public class M01 {
         return String.format("%." + digits + "f", value);
     }
 }
-
