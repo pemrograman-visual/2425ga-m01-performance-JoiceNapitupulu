@@ -4,11 +4,11 @@
         <attribute name="name" value="BENARRRRRRRRRRRR WHILE"/>
         <attribute name="authors" value="JOICE"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 11:06:53 AM"/>
+        <attribute name="saved" value="2024-10-18 11:10:42 AM"/>
         <attribute name="created" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDM6NDY6NDggUE07MjMwNA=="/>
         <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDM6NTQ6MjEgUE07OTtKT0lDRTtCRUVMWkVCVUI7MjAyNC0xMC0xNzswMTo1MDo1NCBQTTtDT0JBQS5mcHJnOzU2NDE="/>
         <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDQ6MTQ6MjIgUE07MTsyNDAw"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0xMC0xODsxMTowNjo1MyBBTTs2OzI4MTk="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0xMC0xODsxMToxMDo0MiBBTTs3OzI4MTM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -18,6 +18,13 @@
             <declare name="nilaihuruf, kredit" type="String" array="False" size=""/>
             <assign variable="kredit1" expression="0"/>
             <input variable="kredit"/>
+            <assign variable="A" expression="4.0"/>
+            <assign variable="AB" expression="3.5"/>
+            <assign variable="B" expression="3.0"/>
+            <assign variable="BC" expression="2.5"/>
+            <assign variable="C" expression="2.0"/>
+            <assign variable="D" expression="1.0"/>
+            <assign variable="E" expression="0.0"/>
             <while expression="kredit!=&quot;---&quot;">
                 <if expression="kredit=&quot;---&quot;">
                     <then>
