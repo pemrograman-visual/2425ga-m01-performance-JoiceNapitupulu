@@ -1,6 +1,5 @@
 // 12S24014 - Arion Dippos Pandapotan Manurung
 // 12S24020 - Joice Anastasya Napitupulu
-
 import java.util.*;
 import java.lang.Math;
 
