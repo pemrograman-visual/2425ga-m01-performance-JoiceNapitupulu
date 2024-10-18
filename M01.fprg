@@ -4,15 +4,15 @@
         <attribute name="name" value="M01"/>
         <attribute name="authors" value="JOICE"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 10:07:23 AM"/>
+        <attribute name="saved" value="2024-10-18 10:27:18 AM"/>
         <attribute name="created" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTg7MDk6NTM6MzUgQU07MjI5MA=="/>
-        <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTg7MDk6NTU6MzcgQU07MTtKT0lDRTtCRUVMWkVCVUI7MjAyNC0xMC0xNzswMzo0Njo0OCBQTTtCRU5BUlJSUlJSUlJSUlJSIFdISUxFLmZwcmc7Njk3Mg=="/>
-        <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTg7MTA6MDc6MjMgQU07MTsyMzg2"/>
+        <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTg7MTA6Mjc6MDAgQU07MjtKT0lDRTtCRUVMWkVCVUI7MjAyNC0xMC0xNzswMzo0Njo0OCBQTTtCRU5BUlJSUlJSUlJSUlJSIFdISUxFLmZwcmc7Njk1NA=="/>
+        <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTg7MTA6Mjc6MTggQU07MjsyMzkz"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="peforma, nilai, A, AB, B, BC, C, D, E" type="Real" array="False" size=""/>
+            <declare name="peforma, nilaiangka, A, AB, B, BC, C, D, E" type="Real" array="False" size=""/>
             <declare name="kredit1" type="Real" array="False" size=""/>
             <declare name="nilaihuruf, kredit" type="String" array="False" size=""/>
             <assign variable="kredit1" expression="0"/>
@@ -26,7 +26,7 @@
                         <assign variable="kredit1" expression="toReal(kredit)"/>
                     </else>
                 </if>
-                <input variable="nialikredit"/>
+                <input variable="nilaihuruf"/>
                 <if expression="nilaihuruf=&quot;A&quot;">
                     <then>
                         <assign variable="nilaiangka" expression="4.0"/>
@@ -78,7 +78,7 @@
                     </else>
                 </if>
                 <assign variable="peforma" expression="toReal(kredit)*nilaiangka"/>
-                <output expression="tofixed(peforma,1)" newline="True"/>
+                <output expression="toFixed(peforma,1)" newline="True"/>
                 <input variable="kredit"/>
             </while>
         </body>

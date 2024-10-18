@@ -1,6 +1,5 @@
 // 12S24014 - Arion Dippos Pandapotan Manurung
 // 12S24020 - Joice Anastasya Napitupulu
-
 import java.util.*;
 import java.lang.Math;
 
@@ -50,7 +49,7 @@ public class M01 {
                     }
                 }
             }
-            peforma = kredit * nilaiangka;
+            peforma = Integer.parseDouble(kredit) * nilaiangka;
             System.out.println(toFixed(peforma,1));
             kredit = input.nextLine();
         }
@@ -60,4 +59,3 @@ public class M01 {
         return String.format("%." + digits + "f", value);
     }
 }
-
