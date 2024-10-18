@@ -51,7 +51,7 @@ public class M01 {
                 }
             }
             performa = Integer.parseInt(kredit) * nilaiangka;
-            System.out.println(toFixed(peforma,1));
+            System.out.println(toFixed(performa,1));
             kredit = input.nextLine();
         }
     }

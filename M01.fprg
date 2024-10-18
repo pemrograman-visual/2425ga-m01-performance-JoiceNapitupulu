@@ -4,12 +4,12 @@
         <attribute name="name" value="BENARRRRRRRRRRRR WHILE"/>
         <attribute name="authors" value="JOICE"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 11:38:21 AM"/>
+        <attribute name="saved" value="2024-10-18 11:41:24 AM"/>
         <attribute name="created" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDM6NDY6NDggUE07MjMwNA=="/>
         <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDM6NTQ6MjEgUE07OTtKT0lDRTtCRUVMWkVCVUI7MjAyNC0xMC0xNzswMTo1MDo1NCBQTTtDT0JBQS5mcHJnOzU2NDE="/>
         <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTAtMTc7MDQ6MTQ6MjIgUE07MTsyNDAw"/>
         <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0xMC0xODsxMToyMzoyOSBBTTsxO0pPSUNFO0JFRUxaRUJVQjsyMDI0LTEwLTE3OzAzOjQ2OjQ4IFBNO0JFTkFSUlJSUlJSUlJSUlJfV0hJTEVbMV0uZnByZzs3Njgy"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0xMC0xODsxMTozODoyMSBBTTsxNTsyODY3"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0xMC0xODsxMTo0MToyNCBBTTsxNjsyODY1"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -79,8 +79,8 @@
                         </if>
                     </else>
                 </if>
-                <assign variable="Performa" expression="toInteger(kredit)* nilaiangka"/>
-                <output expression="toFixed(peforma,1)" newline="True"/>
+                <assign variable="Performa" expression="toInteger(kredit)*nilaiangka"/>
+                <output expression="toFixed(Performa,1)" newline="True"/>
                 <input variable="kredit"/>
             </while>
         </body>
