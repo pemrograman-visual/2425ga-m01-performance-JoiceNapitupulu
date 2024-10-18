@@ -14,18 +14,11 @@ public class M01 {
 
         kredit1 = 0;
         kredit = input.nextLine();
-        a = 4.0;
-        aB = 3.5;
-        b = 3.0;
-        bC = 2.5;
-        c = 2.0;
-        d = 1.0;
-        e = 0.0;
         while (!kredit.equals("---")) {
             if (kredit.equals("---")) {
                 kredit = kredit;
             } else {
-                kredit1 = Integer.parseDouble(kredit);
+                kredit1 = Integer.parseInt(kredit);
             }
             nilaihuruf = input.nextLine();
             if (nilaihuruf.equals("A")) {
@@ -63,7 +56,7 @@ public class M01 {
             if (kredit.equals("---")) {
                 kredit = kredit;
             } else {
-                kredit1 = Integer.parseDouble(kredit);
+                kredit1 = Integer.parseInt(kredit);
             }
             nilaihuruf = input.nextLine();
         }
